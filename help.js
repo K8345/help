@@ -1,6 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
     const image = document.getElementById("help");
-    image.style.opacity = 1;
+
+    setTimeout(() => {
+        image.style.opacity = 1;
+    }, 100);
 
     let clickCount = 0;
     const maxClicks = 15;
