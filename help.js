@@ -1,4 +1,3 @@
-// help.js
 document.addEventListener("DOMContentLoaded", function () {
     const image = document.getElementById("help");
     image.style.opacity = 1;
